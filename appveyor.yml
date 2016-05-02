@@ -3,6 +3,7 @@ environment:
     - compiler: 0
 
 install:
+  - '"C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd" /x64'
   - ps: msbuild.exe --version
   - ps: cl.exe --version
 
