@@ -7,7 +7,6 @@ install:
 
 test_script:
   - ps: cl.exe /EHsc path.cc
-  - ps: path.exe
 
 build: off
 
