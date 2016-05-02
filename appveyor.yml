@@ -9,6 +9,6 @@ test_script:
   - ps: cl.exe /EHsc path.cc
   - ps: path.exe
 
-build: on
+build: off
 
 version: "{build}"
