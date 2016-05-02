@@ -1,0 +1,11 @@
+environment:
+  matrix:
+    - compiler: 0
+
+test_script:
+  - ps: cl /EHsc path.cc
+  - ps: path.exe
+
+build: off
+
+version: "{build}"
