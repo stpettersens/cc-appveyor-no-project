@@ -2,6 +2,10 @@ environment:
   matrix:
     - compiler: 0
 
+install:
+  - ps: msbuild.exe --version
+  - ps: cl.exe --version
+
 test_script:
   - ps: cl /EHsc path.cc
   - ps: path.exe
