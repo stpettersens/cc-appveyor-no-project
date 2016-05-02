@@ -4,11 +4,11 @@ environment:
 
 install:
   - '"C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd" /x64'
-  - ps: msbuild.exe --version
-  - ps: cl.exe --version
+  - ps: msbuild.exe /help
+  - ps: cl.exe /help
 
 test_script:
-  - ps: cl /EHsc path.cc
+  - ps: cl.exe /EHsc path.cc
   - ps: path.exe
 
 build: on
