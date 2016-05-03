@@ -1,14 +1,13 @@
 environment:
   matrix:
-    - compiler: 0
+    - compiler: cl.exe
 
 install:
   - '"C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\SetEnv.cmd" /x64'
-  - cl.exe /EHsc path.cc
+  - $env:compiler /EHsc path.cc
 
 test_script:
   - path.exe
-
 
 build: off
 
