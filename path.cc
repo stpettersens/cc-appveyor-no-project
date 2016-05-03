@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include <regex>
 
 int main() {
   std::string my_path = "foo/bar/oh/yeah";
