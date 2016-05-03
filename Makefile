@@ -1,2 +1,2 @@
 make:
-		g++ --std=c++11 path.cc -o path
+	g++ --std=c++11 path.cc -o path
