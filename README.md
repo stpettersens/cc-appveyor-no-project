@@ -1,4 +1,4 @@
-#### vcc-appveyor-no-project
+#### cc-appveyor-no-project
 
 This is really just a point of reference on using Microsoft's C/C++ compiler (rather than via Visual C++ Project) 
 to compile source code on Appveyor.
